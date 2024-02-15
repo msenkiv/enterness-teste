@@ -1,0 +1,64 @@
+/* ChatPage.css */
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  color: #01496E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px; 
+  min-height: 400px; 
+  margin: 20px auto; 
+}
+
+.message-list {
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #ACADAF;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #f0f0f0;
+}
+
+.message-form {
+  display: flex;
+}
+
+.message-form input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ACADAF;
+}
+
+.message-form button {
+  padding: 10px 20px;
+  background-color: #01496E;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-form button:hover {
+  background-color: #01395E;
+}
